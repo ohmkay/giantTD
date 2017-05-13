@@ -1,32 +1,42 @@
 {
-    "id": "77d7c692-16b1-434d-adaf-78d5c2863861",
+    "id": "43ec582c-1a6f-4aba-a6f8-b4804a61c1a7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_enemy",
+    "name": "obj_turret",
     "eventList": [
         {
-            "id": "6380aa81-b096-4cf3-a99c-3d0f7915e62c",
+            "id": "17af2d15-b536-464d-9a71-50462c790b00",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "77d7c692-16b1-434d-adaf-78d5c2863861"
+            "m_owner": "43ec582c-1a6f-4aba-a6f8-b4804a61c1a7"
         },
         {
-            "id": "914af42b-9721-48ee-ab2b-6c23aadd3aa9",
+            "id": "1433c50e-6b4b-4c07-b6ac-02b248955475",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "43ec582c-1a6f-4aba-a6f8-b4804a61c1a7"
+        },
+        {
+            "id": "a0a713c5-4495-4f58-b599-1e4e6aac2c5f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "77d7c692-16b1-434d-adaf-78d5c2863861"
+            "m_owner": "43ec582c-1a6f-4aba-a6f8-b4804a61c1a7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "ddbb0494-74e3-4f67-8c7a-60fbb8ebaadf",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -41,6 +51,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "a518989b-f130-4020-a494-efc52deffdde",
+    "spriteId": "a386800f-f743-4044-9909-59aee15d0ef8",
     "visible": true
 }
