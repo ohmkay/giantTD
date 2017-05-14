@@ -1,6 +1,6 @@
 /// Check
 
-if (enemies_killed >= 5) {
+if (enemies_killed >= 5 && star_level <= 3) {
 	attack_speed -= .1;
 	enemies_killed = 0
 	
