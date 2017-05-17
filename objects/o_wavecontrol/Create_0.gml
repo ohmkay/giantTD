@@ -2,5 +2,5 @@
 
 
 // Start Alarm to spawn units
-
-alarm[0] = room_speed * 1;
+warPresent = false;
+alarm[0] = room_speed * .1;
