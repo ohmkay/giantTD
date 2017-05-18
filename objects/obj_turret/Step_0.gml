@@ -1,8 +1,8 @@
 /// Check
 
-<<<<<<< HEAD
 
-=======
+
+/*
 if (enemies_killed >= 5 && star_level <= 3) {
 	attack_speed -= .1;
 	enemies_killed = 0
@@ -17,4 +17,4 @@ if (enemies_killed >= 5 && star_level <= 3) {
 	instance_create_layer(x+24,y-40,"PathLayer",obj_star)
 	}
 	}
->>>>>>> origin/master
+
