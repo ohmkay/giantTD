@@ -10,6 +10,10 @@ if (hp <= 0) {
 	obj_stats.cash += 5;
 	if (obj_stats.enemies > 0) {
 	obj_stats.enemies -= 1; }
+	if (obj_stats.enemies == 0) {
+		o_wavecontrol.active = false;
+		obj_stats.enemies = 1500;
+		o_wavecontrol.wave += 1;}
 	instance_destroy();
 	}
 
