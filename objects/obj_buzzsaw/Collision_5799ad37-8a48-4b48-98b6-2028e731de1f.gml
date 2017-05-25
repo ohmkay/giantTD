@@ -10,7 +10,7 @@ with (other) {
 	//if (distance < 40) {
 	hp -= 1; }
 	
-	for(i = 0; i < 99; i++) {
+	for(i = 0; i < o_wavecontrol.gore; i++) {
 	instance_create_layer(x,y,"TurretLayer",obj_debri); }
 
 

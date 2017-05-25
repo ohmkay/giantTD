@@ -6,3 +6,4 @@ hp = 50;
 o_wavecontrol.warPresent = true;
 engaged = false;
 currentY = y;
+damage = o_wavecontrol.playerDamage;

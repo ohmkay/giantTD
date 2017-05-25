@@ -10,3 +10,6 @@ currentX = x;
 currentY = y;
 attacking = false;
 radius = 128;
+AoeDamage = false;
+
+cost = 400;

@@ -12,3 +12,4 @@ currentY = y;
 sprite_index = o_wavecontrol.enemySprite;
 level = o_wavecontrol.enemyLevel;
 hp = o_wavecontrol.enemyHp;
+slowdelay = 1;

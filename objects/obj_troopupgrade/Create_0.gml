@@ -5,3 +5,5 @@
 o_wavecontrol.startx = x;
 o_wavecontrol.starty = y;
 level = 1;
+damage = 1;
+cost = 200;

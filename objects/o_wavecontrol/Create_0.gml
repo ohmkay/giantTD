@@ -13,11 +13,12 @@ alarm[0] = room_speed * .2;
 storedEnemies = 0;
 
 // Start Alarm for Player Spawn
-playerSpawnRate = 10;
+playerSpawnRate = 45;
+playerDamage = 1;
 alarm[3] = room_speed * playerSpawnRate;
 
 //  Currency for buying next tier unit
-wavepoints = 0;
+wavepoints = 2;
 
 
 
@@ -31,3 +32,7 @@ enemyHp = 1;
 // Start Button Coordinates for Respawn
 startX = x;
 startY = y;
+
+
+// Gore Progression
+gore = 1;

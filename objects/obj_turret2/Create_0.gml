@@ -16,3 +16,4 @@ currentY = y;
 attacking = false;
 
 cooldown = 20;
+cost = 500;
