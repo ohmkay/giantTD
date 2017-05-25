@@ -5,3 +5,9 @@ wave = 1;
 warPresent = false;
 alarm[0] = room_speed * .2;
 storedEnemies = 0;
+wavepoints = 0;
+
+
+enemySprite = "";
+enemyLevel = 1;
+enemyHp = 1;

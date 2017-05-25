@@ -3,5 +3,5 @@
 draw_set_font(f_dragon);
 draw_text(x,y-30,"Cash");
 draw_text(x+140,y-30,cash);
-draw_text(x,y,"Enemies");
-draw_text(x+140,y,enemies);
+draw_text(x,y,"Lives");
+draw_text(x+140,y,PlayerLives);

@@ -1,19 +1,38 @@
 /// Check 
+var randnum = irandom_range(1,100);
 
+// On Death
 if (hp <= 0) {
-	target = instance_nearest(x,y,obj_turret);
-	target.enemies_killed += 1;
-	o_wavecontrol.warPresent = false;
+
+// How many points
+	switch (level) {
+		case 1:
+		o_wavecontrol.wavepoints += 2;
+		break;
+		case 2:
+		o_wavecontrol.wavepoints += 200;
+		break;
+		case 3:
+		o_wavecontrol.wavepoints += 1000;
+		break;
+		}
+ 
+// Random Chance to play sound effects	
+	if (randnum > 95) {
+	audio_play_sound(choose(sd_explosion,sd_explosion2),3,false);
+	audio_play_sound(choose(sd_scream1,sd_scream2,sd_scream3,sd_scream4,sd_scream5,sd_scream6,sd_scream7),5,false);
+	 } 
+	
+	
+// Play death sound	
 	audio_play_sound(sd_blood,5,false)
 	audio_master_gain(.1);
-	instance_create_layer(x,y,"BloodLayer",obj_groundsplat);
+	
+// Create Blood Effects
+	instance_create_layer(x+(irandom(25)),y+(irandom(25)),"BloodLayer",obj_groundsplat);
+// Increase Money
 	obj_stats.cash += 5;
-	if (obj_stats.enemies > 0) {
-	obj_stats.enemies -= 1; }
-	if (obj_stats.enemies == 0) {
-		o_wavecontrol.active = false;
-		obj_stats.enemies = 1500;
-		o_wavecontrol.wave += 1;}
+	
 	instance_destroy();
 	}
 
