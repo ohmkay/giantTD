@@ -4,3 +4,4 @@
 // Store Button Coords
 o_wavecontrol.startx = x;
 o_wavecontrol.starty = y;
+level = 1;

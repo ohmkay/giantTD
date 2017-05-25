@@ -5,7 +5,8 @@
     "name": "60118383-44b5-48ab-a001-5db5beb3d64e",
     "children": [
         "811d6d9c-7e55-47f0-8fc9-b6c5977d0e6f",
-        "c099e694-8c15-468a-b765-2a3fd66fc497"
+        "c099e694-8c15-468a-b765-2a3fd66fc497",
+        "b1b2c546-f472-4f9d-a3eb-5ef5af242f38"
     ],
     "filterType": "GMObject",
     "folderName": "HUD ",

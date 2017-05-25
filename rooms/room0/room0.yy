@@ -59,7 +59,8 @@
         "5335613b-ffc3-4004-a94a-b4a269d40dc0",
         "1854a3ca-1ed9-4fec-9b36-24979f2baa19",
         "739b0161-c88d-4f07-8a17-ec9f77ebe6a4",
-        "366f30d1-3e58-4ca3-be0b-2e690f0bc5f7"
+        "85542981-8c48-48b2-b1c4-5939a2ffb735",
+        "3ac1eda6-de6b-46b0-beb3-56c6ba9ee49f"
     ],
     "layers": [
         {
@@ -1311,15 +1312,15 @@
                     "scaleY": 1
                 },
                 {
-                    "id": "366f30d1-3e58-4ca3-be0b-2e690f0bc5f7",
+                    "id": "85542981-8c48-48b2-b1c4-5939a2ffb735",
                     "modelName": "GMRInstance",
                     "mvc": "1.0",
                     "ignore": false,
                     "inheritItemSettings": false,
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
-                    "name": "inst_563F1603",
-                    "x": 960,
+                    "name": "inst_3D2C967C",
+                    "x": 880,
                     "y": 32,
                     "IsDnD": false,
                     "colour": {
@@ -1328,8 +1329,32 @@
                     "creationCodeFile": "",
                     "creationCodeType": "",
                     "inheritCode": false,
-                    "name_with_no_file_rename": "inst_563F1603",
+                    "name_with_no_file_rename": "inst_3D2C967C",
                     "objId": "811d6d9c-7e55-47f0-8fc9-b6c5977d0e6f",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "3ac1eda6-de6b-46b0-beb3-56c6ba9ee49f",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_22923E06",
+                    "x": 816,
+                    "y": 32,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_22923E06",
+                    "objId": "b1b2c546-f472-4f9d-a3eb-5ef5af242f38",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
@@ -2424,7 +2449,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": false,
+            "hierarchyVisible": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -2436,11 +2461,11 @@
             "m_serialiseFrozen": false,
             "name": "Background",
             "userdefined_depth": false,
-            "visible": false,
+            "visible": true,
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4293322470
+                "Value": 4278190080
             },
             "hspeed": 0,
             "htiled": false,

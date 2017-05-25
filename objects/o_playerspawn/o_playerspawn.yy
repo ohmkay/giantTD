@@ -2,7 +2,7 @@
     "id": "f0e1d0cc-85d2-4ddb-beab-89324389d236",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_enemy1",
+    "name": "o_playerspawn",
     "eventList": [
         {
             "id": "7599e974-9846-4601-a4bd-76daa86b4a4e",
@@ -46,7 +46,7 @@
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "ddbb0494-74e3-4f67-8c7a-60fbb8ebaadf",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

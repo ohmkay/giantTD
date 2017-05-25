@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "280ba2de-b543-4dbc-bc25-46aad7c6133a",
+            "Value": {
+                "id": "57d7b2ab-6a6c-4b31-bcf9-8958cd076976",
+                "resourcePath": "sprites\\sword\\sword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2ba4923b-f67e-4072-b4d9-4d5c1f230f4a",
             "Value": {
                 "id": "b3324f7b-93fa-4183-adea-e5a64e6266b1",
@@ -156,6 +164,14 @@
                 "id": "155aa473-3b6c-49b1-9394-c80a45b91ac2",
                 "resourcePath": "views\\2e56bcf3-b3df-4bf7-9b06-dedfae1b073e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2f85d5fe-fda5-4143-b5c6-3b8a81d33b6e",
+            "Value": {
+                "id": "cd5d18d3-af85-42f0-ad80-21c5b255dc0e",
+                "resourcePath": "sprites\\sword_cursor\\sword_cursor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -223,6 +239,14 @@
             }
         },
         {
+            "Key": "52ff33be-fa76-4d44-b164-1813b2da15d7",
+            "Value": {
+                "id": "47e9ca67-10fe-4511-82a9-91d3a37ea891",
+                "resourcePath": "sprites\\spr_troopbutton\\spr_troopbutton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "537cfd2b-f593-4af9-8da1-335401d6b299",
             "Value": {
                 "id": "377ea592-801c-4fc4-8d85-5a92454f1285",
@@ -268,6 +292,14 @@
                 "id": "87a863ea-31f0-4e78-ac85-522949c0ae99",
                 "resourcePath": "views\\60118383-44b5-48ab-a001-5db5beb3d64e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6459d8d9-34c9-4045-b0fe-378f2f664e87",
+            "Value": {
+                "id": "58bc3b52-d27d-4993-979a-09cd877d2ec4",
+                "resourcePath": "sprites\\cursor1\\cursor1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -535,6 +567,14 @@
             }
         },
         {
+            "Key": "b1b2c546-f472-4f9d-a3eb-5ef5af242f38",
+            "Value": {
+                "id": "7a643bb9-b3b6-4652-b6fb-abec33e2c121",
+                "resourcePath": "objects\\obj_troopupgrade\\obj_troopupgrade.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b3aab900-f2e8-4c8d-9703-025da7db81a9",
             "Value": {
                 "id": "2dea7bfc-0ae1-4b8f-8acf-29dcf8ba8ebf",
@@ -615,6 +655,14 @@
             }
         },
         {
+            "Key": "cc1849ac-eddc-4e80-ba40-71a5aa9daacd",
+            "Value": {
+                "id": "abe0bd4d-8905-4e72-99b5-820912289d46",
+                "resourcePath": "sprites\\sprite28\\sprite28.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "01672a25-7d62-401c-951f-9a5c4c715993",
@@ -687,6 +735,14 @@
             }
         },
         {
+            "Key": "dcfc8282-73e7-441b-ab29-90895ffabffa",
+            "Value": {
+                "id": "7d67ea91-8974-4617-b3a5-40e2afbc1268",
+                "resourcePath": "sprites\\turret3\\turret3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ddbb0494-74e3-4f67-8c7a-60fbb8ebaadf",
             "Value": {
                 "id": "7268beab-018f-4d2d-a561-0051be13e990",
@@ -754,7 +810,7 @@
             "Key": "f0e1d0cc-85d2-4ddb-beab-89324389d236",
             "Value": {
                 "id": "082cfd21-23fa-407c-8790-8e020a2f2f47",
-                "resourcePath": "objects\\o_enemy1\\o_enemy1.yy",
+                "resourcePath": "objects\\o_playerspawn\\o_playerspawn.yy",
                 "resourceType": "GMObject"
             }
         },

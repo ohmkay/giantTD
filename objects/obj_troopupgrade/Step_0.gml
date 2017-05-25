@@ -1,5 +1,5 @@
 /// @description Insert description here
-with (other) {
+// You can write your code in this editor
+if (level == 3) {
 	instance_destroy(); }
 	
-instance_destroy();
